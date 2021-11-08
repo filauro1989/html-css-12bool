@@ -11,6 +11,15 @@ html {
 [class *= "col-"] {
     border: 1px solid white;
 }
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 /* utilities  */
 .bg-blue {
     background-color: rgb(35, 130, 255);
@@ -24,16 +33,29 @@ html {
 .height-2 {
     height: 2em;
 }
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
+.height-4 {
+    height: 4em;
 }
-.row {
+.height-12 {
+    height: 12em;
+}
+.display-flex {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
+.start {
+    justify-content: flex-start;
+}
+.centered {
+    justify-content: center;
+}
+.end {
+    justify-content: flex-end;
+}
+.column {
+    flex-direction: column;
+}
+
+
 
 @media screen and (min-width:992px) {
     .col-lg-1 {
