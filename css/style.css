@@ -1,0 +1,8 @@
+.text {
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+}
+.nested {
+    border: 1px solid rgb(35, 130, 255);
+}
